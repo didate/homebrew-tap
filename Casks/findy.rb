@@ -4,8 +4,8 @@
 # Homebrew cask for Findy. Copy it to the tap (github.com/didate/homebrew-tap, Casks/findy.rb)
 # when a release is published, with the version and the SHA-256 that scripts/release.sh prints.
 cask "findy" do
-  version "0.2.0"
-  sha256 "d14677320942ccda12f5ab1de714453989c2711a67e164514d5f485a041f2050"
+  version "0.2.1"
+  sha256 "8935d6af2d0d108a2ef2d53b10f1d8bcdf6d2aaad92758c9e930184b875fdb61"
 
   url "https://github.com/didate/findy/releases/download/v#{version}/Findy-#{version}.dmg"
   name "Findy"
