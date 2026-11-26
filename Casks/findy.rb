@@ -12,7 +12,7 @@ cask "findy" do
   desc "Native file manager focused on speed and reliability"
   homepage "https://github.com/didate/findy"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Findy.app"
 
